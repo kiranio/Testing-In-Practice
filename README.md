@@ -25,20 +25,23 @@ This repo contains the Maven setup for Cucumber / Selenium, with Searching Googl
 
 This repo can be run on local Windows / Mac / Linux Platform, as long as you have Java/Maven setup correctly.
 
-========================
-= Setup
-========================
 
+Setup
+=
 
-= Install on Local Machine =
+Install on Local Machine 
+=
 
 Install Java & Maven on your local machine
 
-= To Run (Standalone) =
+To Run (Standalone) 
+=
 ```
-Run as Junit test on Runner class(Right click on the class which is annotated by @RunWith(CucumberWithSerenity.class))```
+Run as Junit test on Runner class(Right click on the class which is annotated by @RunWith(CucumberWithSerenity.class))
+```
 
-= To Run (Maven command line) =
+To Run (Maven command line) 
+=
 ```
 Local machine with browser name (ie / chrome / firefox / safari)
 
@@ -69,9 +72,8 @@ Remote Webdriver:
 = WebDriver Update =
 See README inside /drivers folder
 
-========================
-= Before we start
-========================
+Before we start
+=
 
 = Feature file: Gherkin Syntax =
 Gherkin is the language that Cucumber understands. You can find more Gherin Syntax here:
