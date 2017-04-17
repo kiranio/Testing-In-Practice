@@ -8,9 +8,9 @@ Run the tests like this:
 mvn clean verify
 ```
 
-By default, the tests run with PhantomJS, so you will need this installed. Otherwise, if you prefer Firefox, modify the serenity.properties file or run the tests like this:
+By default, the tests run with chrome, so you will need this installed. Otherwise, if you prefer Firefox ( version <= 46), modify the serenity.properties file or run the tests like this:
 ```
-mvn clean verify -Dwebdriver.driver=firefox
+mvn clean verify -Dwebdriver.driver=chrome
 ```
 
 The reports will be generated in `target/site/serenity`.
