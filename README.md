@@ -1,6 +1,6 @@
 ## Automated web tests for Angular App using Selenium, Serenity, Gherkin, Cucumber and Maven
 
-A simple example of some BDD-style automated acceptance criteria, running against https://demos.scotch.io/angular-formly-car-rental/demos/. 
+A simple example of some BDD-style automated acceptance criteria, running against AngularJS Forms.
 
 Run the tests like this:
 
@@ -69,19 +69,23 @@ Remote Webdriver:
 > mvn test -DsiteUrl=http://www.google.com -DenvName="remote" -DremoteWebDriver="http://<testingbot api key>@hub.testingbot.com:4444/wd/hub"
 
 ```
-= WebDriver Update =
-See README inside /drivers folder and update the relative path in serenity properties
+
+WebDriver Update
+=
+See README inside /drivers folder and update the relative path in serenity properties.
 
 Before we start
 =
 
-= Feature file: Gherkin Syntax =
+Feature file: Gherkin Syntax 
+=
 Gherkin is the language that Cucumber understands. You can find more Gherin Syntax here:
 ```
 https://github.com/cucumber/cucumber/wiki/Gherkin
 ```
 
-= Selenium Syntax =
+Selenium Syntax 
+=
 Selenium is an automated web browser testing. You can find some commonly used Selenium commands here:
 ```
 http://www.seleniumhq.org/docs/02_selenium_ide.jsp#commonly-used-selenium-commands
