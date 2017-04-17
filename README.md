@@ -21,7 +21,7 @@ BDD: Java Maven Cucumber Selenium Setup
 
 Java + Serenity + Cucumber + Gherkin + Selenium BDD test cases
 
-This repo contains the Maven setup for Cucumber / Selenium, with Searching Google with Cheese as example code, which can be run on local or connect to remote SaucsLabs / TestingBot for cross browser testings. Also it can be configured in your CI server (i.e. Bamboo) for continuous testing. It helps to setup a BDD environment for User Acceptance tests.
+This repo contains the Maven setup for Cucumber / Selenium, with filling the form as example code, which can be run on local or connect to remote SaucsLabs / TestingBot for cross browser testings. It helps to setup a BDD environment for User Acceptance tests.
 
 This repo can be run on local Windows / Mac / Linux Platform, as long as you have Java/Maven setup correctly.
 
@@ -70,7 +70,7 @@ Remote Webdriver:
 
 ```
 = WebDriver Update =
-See README inside /drivers folder
+See README inside /drivers folder and update the relative path in serenity properties
 
 Before we start
 =
