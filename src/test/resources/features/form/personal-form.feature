@@ -11,5 +11,5 @@ Feature: Fill the form
     Examples: 
       | firstname | lastname | email       |	place			|
       | kk        | pp       | kp@gmai.com |	Ontario		|
-      | ss        | zz       | sr@gmai.com |	Ontario1	  |
+      | ss        | zz       | sr@gmai.com |	Ontario12	  |
       
